@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    color: rgb(131, 10, 111);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 50%;
+    background-color: rgba(101, 99, 104, 0.164);
+}

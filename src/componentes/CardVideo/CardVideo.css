@@ -1,0 +1,50 @@
+.containerCard {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.video{
+    width: 50%;
+    margin:16px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin:2%;
+    align-items: center;
+}
+.btn {
+    box-shadow: 1px 1px 10px 0px rgba(177, 90, 199, 0.486);
+    margin-top: 10px;
+    border-radius: 10%;
+
+   
+}
+.comment{
+    background-color:rgba(170, 90, 159, 0.24);
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .containerCard {
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    .video{
+        width: 100%;
+        margin: 8px;
+    }
+    .text{
+        margin-top: 8px;
+        align-items: center;
+    }
+  }
