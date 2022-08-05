@@ -22,9 +22,13 @@ export default function Detail() {
 
   return (
     <div className="containerDetail">
-      <div >
-        <Link to="/" style={{ textDecoration: "inherit" }} className="containerButton">
-          <Button  color="secondary" variant="contained" onClick={resState}>
+      <div>
+        <Link
+          to="/"
+          style={{ textDecoration: "inherit" }}
+          className="containerButton"
+        >
+          <Button color="secondary" variant="contained" onClick={resState}>
             Home
           </Button>
         </Link>

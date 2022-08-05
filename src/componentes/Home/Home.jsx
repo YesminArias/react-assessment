@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemButton from "@mui/material/ListItemButton";
-import './Home.css';
-
+import "./Home.css";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -27,15 +26,13 @@ export default function Home() {
         {listcandidates &&
           listcandidates.map((e) => {
             return (
-              <div className="container" >
-                <List component="nav"   aria-label="main mailbox folders">
-                  <ListItemButton  >
+              <div className="container">
+                <List component="nav" aria-label="main mailbox folders">
+                  <ListItemButton>
                     <Link
-                     
                       key={e.id}
                       to={"/detail/" + e.id}
                       style={{ textDecoration: "inherit" }}
-                      
                     >
                       <ListItemText primary={e.name} />
                     </Link>

@@ -1,17 +1,17 @@
-.title{
-    text-align: center;
-    color: rgb(131, 10, 111);
+.title {
+  text-align: center;
+  color: rgb(131, 10, 111);
 }
 .containerDetail {
-    justify-content: center;
-    margin:auto;
-    padding:10px;
-    width: 80%;
-    background-color: rgba(101, 99, 104, 0.164);
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  background-color: rgba(101, 99, 104, 0.164);
 }
-.containerButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
+.containerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
 }
